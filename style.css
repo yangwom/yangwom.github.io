@@ -1,0 +1,66 @@
+body {
+background-color: #060707
+          
+      }
+      #font-style {
+          font-style: italic;
+          line-height: 40px;
+          text-align: start;
+          color: ivory;
+      }
+        p {
+            font-style: italic;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        .list-style {
+            color: rgb(255, 255, 249);
+            font-size: 30px;
+            font-style: italic;
+            text-align: center;
+            text-decoration:underline ;
+        }
+        #style-paragrafo{
+            color: ivory;
+        }
+        #skill{
+            color: ivory;
+            font-size: 80px;
+            font-style: italic;
+            font-size: 30px;
+            text-align: center;
+            text-decoration: underline;
+            
+            
+        }
+        h3 {
+            color: ivory;
+        }
+        #linkbranco{
+            color: rgb(221, 230, 231);
+        }
+        #section {
+            background-color: indigo;
+            padding: 80px;
+            border-width: 80px;
+             }
+            .nav {
+                font-size: x-large;
+                 text-decoration-color: rgb(12, 212, 212);
+                color: ivory;
+            }
+            #section02 {
+                padding: 80px;
+                margin: 20px;
+                
+
+            }
+            #section03{
+                padding: 40px;
+                background-color: indigo;
+            }
+            #footer-style {
+                background-color: rgb(0, 0, 0);
+            }
