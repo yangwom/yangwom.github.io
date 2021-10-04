@@ -64,7 +64,7 @@ margin: 0;
             }
             #section02 {
                 padding: 80px;
-                background-image: url(img/Crunchyroll);
+                background-image: url(img/youtube);
                 height: 100vh;
 
                 
@@ -73,7 +73,7 @@ margin: 0;
             #section03{
                 padding: 40px;
                 background-color: indigo;
-                background-image: url(img/youtube);
+                background-image: url(img/Crunchyroll);
                 height: 100vh;
             }
             #footer-style {
