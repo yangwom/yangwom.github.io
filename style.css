@@ -6,7 +6,7 @@ background-color: #060707
           font-style: italic;
           line-height: 40px;
           text-align: start;
-          color: ivory;
+          color: rgb(2, 2, 2);
       }
         p {
             font-style: italic;
@@ -21,46 +21,65 @@ background-color: #060707
             font-style: italic;
             text-align: center;
             text-decoration:underline ;
+            
         }
         #style-paragrafo{
             color: ivory;
         }
-        #skill{
-            color: ivory;
-            font-size: 80px;
+        .skills {
+            color: rgb(253, 253, 242);
+            font-size: 100px;
             font-style: italic;
             font-size: 30px;
-            text-align: center;
+            text-align:center;
             text-decoration: underline;
+            text-decoration: none;
+            display:block;
+        text-decoration-line: none;
             
             
         }
         h3 {
-            color: ivory;
+            color: rgb(31, 31, 26);
         }
         #linkbranco{
-            color: rgb(221, 230, 231);
+            color: rgb(7, 7, 7);
+            font-size: 40px;
+            text-align: center;
         }
         #section {
             background-color: indigo;
             padding: 80px;
             border-width: 80px;
+            
              }
             .nav {
                 font-size: x-large;
-                 text-decoration-color: rgb(12, 212, 212);
-                color: ivory;
+                 text-decoration-color: rgb(23, 26, 26);
+                color: rgb(24, 24, 21);
+                
             }
             #section02 {
                 padding: 80px;
-                margin: 20px;
+                background-image: url(youtube-960x540.jpg);
+                height: 100vh;
+
                 
 
             }
             #section03{
                 padding: 40px;
                 background-color: indigo;
+                background-image: url(Crunchyroll-capa.jpg);
+                height: 100vh;
             }
             #footer-style {
-                background-color: rgb(0, 0, 0);
+                
+                background-image:url(redes-sociais-para-medicos-1280x720.jpg) ;
+
+            
+            }
+            #header{
+                background-image: url(portfolio\ \(1\).jpg);
+                height: 50vh;
             }
