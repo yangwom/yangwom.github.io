@@ -1,5 +1,6 @@
 body {
-background-color: #060707
+background-color: #060707;
+margin: 0;
           
       }
       #font-style {
@@ -7,6 +8,7 @@ background-color: #060707
           line-height: 40px;
           text-align: start;
           color: rgb(2, 2, 2);
+          margin: 0;
       }
         p {
             font-style: italic;
@@ -20,7 +22,8 @@ background-color: #060707
             font-size: 30px;
             font-style: italic;
             text-align: center;
-            text-decoration:underline ;
+            text-decoration:none;
+            list-style-type:georgian;
             
         }
         #style-paragrafo{
