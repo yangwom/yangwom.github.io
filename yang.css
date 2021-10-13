@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    background-color: black;
+}
+
+.yang {
+    width: 100%;
+    margin: 0px;
+    height: 170px;
+
+
+}
+
+.imgyang {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+a {
+    color: rgb(5, 5, 5);
+    background-color: rgb(66, 235, 66);
+    border-radius: 5%;
+    text-decoration: none;
+    cursor: progress;
+    padding: 4px 4px 4px 4px;
+    margin: 8px;
+    padding-bottom: 7px;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(15, 12, 12);
+    background-color: cyan;
+    font-size: 20px;
+
+
+}
+
+header {
+    font-size: 0px;
+}
+
+nav {
+    background-color:white;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+
+}
+
+main section img {
+
+    width: 45%;
+    margin: 30px;
+}
+
+section {
+    background-color:black;
+
+}
+.navpai{
+    position: relative;
+    bottom: 30px;
+    padding: 20px;
+    background-color:black;
+}
+
+.anav1 {
+    width: 100px;
+    position: relative;
+    left: 215px;
+    
+
+
+
+}
+
+.anav2 {
+    width: 100px;
+    left: 830px;
+    position: relative;
+    
+
+
+}
+
+aside h2 {
+    text-align: center;
+
+
+}
+
+section h2 {
+    color: rgb(66, 235, 66);
+    text-align: center;
+
+}
+
+.videos {
+    width: 300px;
+    border-style: groove;
+    height: 400px;
+
+
+}
+
+.videos2 {
+    width: 532px;
+    position: relative;
+    border-style: inset;
+    left: 50px;
+    height: 400px;
+
+}
+
+.video3 {
+    width: 302px;
+    border-style: groove;
+    position: relative;
+    left: 100px;
+    height: 400px;
+}
+.botong {
+    position: relative;
+    padding: 10px;
+    bottom: 20px;
+    right: 30px;
+}
+.botont {
+    position: relative;
+    padding: 10px;
+    bottom: 20px;
+    right: 15px;
+}
+
+
+
+footer {
+    position: relative;
+    margin-top: 20px;
+    background-color: black;
+    padding: 40px;
+}
+footer h3 {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
