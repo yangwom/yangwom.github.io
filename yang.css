@@ -2,7 +2,14 @@
     margin: 0px;
     scroll-behavior: smooth;
 }
+
 body {
+
+    /* Definir uma larguna maxima de tela e centralizar o conteudo ao centro */
+    max-width: 1200px;
+    margin:  auto;
+
+
     color: white;
     background-color: black;
 }
@@ -21,21 +28,24 @@ body {
 }
 
 a {
+
     color: rgb(5, 5, 5);
     background-color: rgb(66, 235, 66);
     border-radius: 5%;
     text-decoration: none;
+    text-align: center;
     cursor: progress;
-    padding: 4px 4px 4px 4px;
+    padding: 4px;
     margin: 8px;
     padding-bottom: 7px;
     transition: 200ms;
+    width: 90px;
 }
 
 a:hover {
     color: rgb(15, 12, 12);
     background-color: cyan;
-    font-size: 20px;
+    font-size: 18px;
 
 
 }
@@ -44,8 +54,13 @@ header {
     font-size: 0px;
 }
 
-nav {
-    background-color:white;
+.menu {
+    /* Display flex para poder centralizar os elementos */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+    background-color: black;
     padding: 10px;
 }
 
@@ -54,51 +69,58 @@ h2 {
 
 }
 
-main section img {
-
-    width: 45%;
-    margin: 30px;
+/* Criei uma div para agrupar os elementos de descricao e centralizar na tela */
+.description {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
-section {
-    background-color:black;
-
-}
-.navpai{
-    position: relative;
-    bottom: 30px;
-    padding: 20px;
-    background-color:black;
+/* Apliquei um margin bottom em todos os h1 e h2  */
+.description h1,
+h2 {
+    margin-bottom: 10px;
 }
 
-.anav1 {
-    width: 100px;
-    position: relative;
-    left: 215px;
+.container_hobbies{
+    display: flex;
     
-
-
-
 }
 
-.anav2 {
-    width: 100px;
-    left: 830px;
-    position: relative;
+.card img{
+    width: 70%;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px 5px #24c848;
+    transition: 0.6s
+}
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
     
-
-
 }
 
-aside h2 {
-    text-align: center;
-
-
+section{
+    display: flex;
+    flex-direction: column;
 }
 
-section h2 {
+
+
+
+
+/* Criei a classe titulos para todos os titulos */
+.titulos {
     color: rgb(66, 235, 66);
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
 
 }
 
@@ -126,30 +148,36 @@ section h2 {
     left: 100px;
     height: 400px;
 }
+
 .botong {
-    position: relative;
+
     padding: 10px;
     bottom: 20px;
     right: 30px;
 }
+
 .botont {
-    position: relative;
+
     padding: 10px;
     bottom: 20px;
     right: 15px;
 }
 
 
-
+/* Apliquei um display flex para centralizar os elementos na tela */
 footer {
-    position: relative;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     padding: 40px;
 }
-footer h3 {
-    color: white;
-    position: relative;
-    bottom: 50px;
-    right: 30px;
+
+.titulo_footer {
+    color: rgb(66, 235, 66);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
+

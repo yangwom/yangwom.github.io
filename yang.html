@@ -1,73 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portifolio</title>
     <link rel="stylesheet" href="yang.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-     <img class="yang" src="yangflix.jpg" alt="">
+        <img class="yang" src="yangflix.jpg" alt="">
     </header>
-    <nav>
-        <a href="#skills">Skills</a>
+    <nav class="menu">
+        <a href="#">Skills</a>
         <a href="#hobbies">Hobbies</a>
-        <a href="#videos">Meus videos</a>
+        <a href="#videos">Videos</a>
         <a href="#contato">Contato</a>
     </nav>
     <main>
-        <img class="imgyang" src="yang.jpg" width="200" alt="">
-        <h1>Yang wom Vieira</h1>
-        <p>Ola meu nome é coreano ta, nasci em campo grande(ms) onde moro atualmente.<br><strong> Rumo a desenvolvedor web</strong></p>
-        
-        <h2 id="skills">HARD Skills E SOFT SKILLS</h2>
-        <ul> 
-            <li>EMPATIA</li>
-            <li>COMUNICAÇÃO</li>
-            <li>TRABALHO EM EQUIPE E PERSUASÃO.</li>
-            <li>EDIÇÃO MOBILE</li>
-            <li>FILMMAKER AMADOR</li>
-        </ul>
-        <h2>EM PROGRESSO</h2>
-        <ul>
-        <li>JAVASCRIPT</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        </ul>
-        <h2>HABILIDADES QUE AINDA QUERO TER</h2>
-        <ul>
-            <li>REACT</li>
-            <li>BACK-END</li>
-            <LI>FRONT-END</LI>
-            <li>CIENCIA DA COMPUTAÇÃO</li>
-        </ul>
+        <div class="description">
+            <img class="imgyang" src="yang.jpg" width="200" alt="">
+            <h1>Yang wom Vieira</h1>
+            <p>Ola meu nome é coreano ta, nasci em campo grande(ms) onde moro atualmente.<br><strong> Rumo a
+                    desenvolvedor web</strong></p>
+
+            <h2 id="skills">HARD Skills E SOFT SKILLS</h2>
+            <ul>
+                <li>EMPATIA</li>
+                <li>COMUNICAÇÃO</li>
+                <li>TRABALHO EM EQUIPE E PERSUASÃO.</li>
+                <li>EDIÇÃO MOBILE</li>
+                <li>FILMMAKER AMADOR</li>
+            </ul>
+            <h2>EM PROGRESSO</h2>
+            <ul>
+                <li>JAVASCRIPT</li>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+            <h2>HABILIDADES QUE AINDA QUERO TER</h2>
+            <ul>
+                <li>REACT</li>
+                <li>BACK-END</li>
+                <LI>FRONT-END</LI>
+                <li>CIENCIA DA COMPUTAÇÃO</li>
+            </ul>
+        </div>
         <section>
-            <h2 id="hobbies">HOBBIES</h2>
-            <img src="clash.jpeg"alt="">
-            <img src="crun.jpeg" alt="">
+            <div>
+                <h2 id="hobbies" class="titulos">HOBBIES</h2>
+            </div>
+            <!-- Fiz um container para englobar as imagens e os links, dentro desse container eu coloquei 2 divs, cada div com a class CARD -->
+            <div class="container_hobbies">
+                
+                <div class="card">
+                    <img src="/img/clash.jpg" alt="">
+                    <a class="anav1"
+                        href="https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=pt_BR&gl=US">clash
+                        royale</a>
+                </div>
+
+                <div class="card">
+                    <img src="/img/crunch.png" alt="">
+                    <a class="anav2"
+                        href="https://www.crunchyroll.com/pt-br/welcome?utm_source=paid_cr&utm_medium=google-search&utm_campaign=conversion&utm_term=crunchyroll&referrer=paid_cr_google-search_conversion&gclid=Cj0KCQjwwY-LBhD6ARIsACvT72N67oU2qr-2MnCpjfqQ2POF35EYjlKioUN3tLY2E99-rCIiLiGrqWMaAlN_EALw_wcB">crunchyroll</a>
+                </div>
+
+            </div>
+
         </section>
-        <nav class="navpai">
-            <a class="anav1" href="https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=pt_BR&gl=US">clash royale</a>
-            <a class="anav2" href="https://www.crunchyroll.com/pt-br/welcome?utm_source=paid_cr&utm_medium=google-search&utm_campaign=conversion&utm_term=crunchyroll&referrer=paid_cr_google-search_conversion&gclid=Cj0KCQjwwY-LBhD6ARIsACvT72N67oU2qr-2MnCpjfqQ2POF35EYjlKioUN3tLY2E99-rCIiLiGrqWMaAlN_EALw_wcB">crunchyroll</a>
-            </nav>
-        </main>
-        <aside>
-            <h2 id="videos">MEUS VIDEOS</h2>
-            <video  class="videos"  src="video.mp4" controls preload="auto"></video>
-            <video class="videos2" src="video2.mp4" controls preload="auto"></video>
-            <video class="video3"  src="video1.mp4" controls preload="auto"></video>
-        </aside>
-        <footer>
-            <h3 id="contato">REDES SOCIAIS</h3>
+        
+
+    </main>
+    <aside>
+        <h2 id="videos" class="titulos">MEUS VIDEOS</h2>
+        <video class="videos" src="video.mp4" controls preload="auto"></video>
+        <video class="videos2" src="video2.mp4" controls preload="auto"></video>
+        <video class="video3" src="video1.mp4" controls preload="auto"></video>
+    </aside>
+
+
+    <footer>
+        <div>
+            <h2 id="contato" class="titulo_footer">REDES SOCIAIS</h2>
+        </div>
+        <div>
             <a class="botong" href=""><i class="fab fa-github-square"></i></a>
             <a class="botont" href=""><i class="fab fa-twitter-square"></i></a>
+        </div>
 
-            
-        </footer>
+
+    </footer>
 
 
 </body>
+
 </html>
