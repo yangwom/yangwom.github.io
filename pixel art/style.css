@@ -1,0 +1,71 @@
+
+#color-palette {
+  width: 220px;
+  margin: 0 auto;
+  
+  
+
+}
+
+.color {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  margin: auto;
+
+  
+}
+
+.black {
+  background-color: black;
+  
+}
+
+.green {
+  background-color: green;
+  
+}
+.orange {
+  background-color: orange;
+}
+.blue {
+  background-color: blue;
+}
+
+body {
+  background-color: rgb(87, 7, 87);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+.pixel {
+  background-color: white;
+  border: 1px solid;
+  display: block;
+  width: 40px;
+  height: 40px;
+  box-shadow: chartreuse 2px 2px 2px;
+  position: relative;
+}
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+  margin: auto;
+  margin-top: 10px;
+  
+
+}
+
+.color:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+
+#clear-board {
+  position: relative;
+  left: 606px;
+  margin-top: 5px;
+}

@@ -1,0 +1,51 @@
+.completed {
+ text-decoration: line-through;
+}
+#criar-tarefa:hover {
+transform: scale(1.1);
+transition: 0.1s;
+background-color: rgb(0, 252, 239);
+
+}
+#criar-tarefa {
+    background-color: lawngreen;
+}
+#apaga-tudo:hover {
+    transform: scale(1.1);
+transition: 0.1s;
+background-color: rgb(0, 252, 239);
+}
+
+#apaga-tudo {
+    background-color: lawngreen;
+}
+
+#remover-finalizados:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    background-color: rgb(0, 252, 239);
+
+}
+#remover-finalizados {
+    background-color:lawngreen;
+}
+#salvar-tarefas:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    background-color: rgb(0, 252, 239);
+     
+}
+#salvar-tarefas {
+    background-color: lawngreen;
+}
+
+.center {
+ margin-left: 400px;
+ margin-top: 80px;
+ 
+}
+
+body {
+    background-color: black;
+}
+
