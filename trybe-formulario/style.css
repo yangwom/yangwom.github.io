@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  padding: 10 20px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.header button {
+  margin-right: 20px;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#evaluation-form input {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+div .filhos {
+  margin: 2px;
+}
+
+div .filhos2 {
+  display: flex;
+  margin: 2px;
+}
+
+.radio-l {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pai-input {
+  display: flex;
+}
+
+.pai-checkbox {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin: 10px;
+  width: 80%;
+}
+
+.filhos-check {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#evaluation-form .filhos-check input {
+  margin: 10px;
+}
+
+.filhos-check label {
+  margin: 5px;
+}
+
+.label-radio {
+  margin: 10px;
+}
+
+.titulo-evaluation {
+font-size: 10px;
+}
+
