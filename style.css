@@ -180,14 +180,14 @@ margin-top: 100px;
   padding-bottom: 200px;
 }
 
-.iframe {
+.iframe1 {
   display: flex;
   justify-content: space-around;
 }
-.iframe video {
+.iframe1 video {
   margin-top: 100px;
-  width: 400px;
-  height: 300px;
+  width: 401px;
+  height: 301px;
   object-fit: cover;
   
 }
