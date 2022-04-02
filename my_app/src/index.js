@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PortProvider from './context/portProvider'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
  
   <React.StrictMode>
      <PortProvider>
-       <BrowserRouter>
+       <HashRouter>
       <App />
-      </BrowserRouter>
+      </HashRouter>
     </PortProvider>
   </React.StrictMode>,
   document.getElementById('root')
