@@ -4,6 +4,7 @@ function persistStore( ) {
     function usePersistStore(key, initialState ) {
         const [ store, setStore ] = useState(() => {
             const storageValue = localStorage.getItem(key)
+            
             if(storageValue) {
             return JSON.parse(storageValue);
             } else {

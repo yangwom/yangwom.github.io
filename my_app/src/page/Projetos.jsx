@@ -1,39 +1,43 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
-import projeto1 from '../img/projeto.png'
-import todoList from '../img/todo-list.png'
-import trybeWarts from '../img/trybe-warts.png'
-import { Button } from "../components/style";
+import todoList from '../img/todo-list.png';
+import trybeWallet from '../img/trybe-wallet.png';
+import solarSystem from '../img/solar-system.png'
+import img from '../components/header/img/Yang0000.png'
+import { Container, Imagem } from "../components/style";
+import ButtonDarkMode from '../components/styleButton/ButtonDarkMode'
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 
 
 function Projetos() {
-    const history = useHistory()
-     const home = () => {
-     history.push('/')
-     }
     return(
         <>
-        <section id="projetos" className="my-projetos">
-        <h1>Projetos</h1>
+        <Container>
+          <Imagem src={img} />
+          <nav>
+          <Link to="/">Home</Link>
+          <ButtonDarkMode/>
+          </nav>
+         </Container>
+        <section id="projetos" >
         <section  className="img-projetos">
         <div className="projetos-nav">
-        <img src={ projeto1 } alt="" />
-        <a href="k">Pixel art</a>
+        <img src={ solarSystem } alt="" />
+        <a href="https://yangwom.github.io/Solar-system/">S.System</a>
        
     </div>
     <div class="projetos-nav" >
        <img src={todoList} alt=""/>
-        <a href="todo list/">Todo list</a>
+        <a href="https://yangwom.github.io/todo-list/">Todo list</a>
     </div>
     <div className="projetos-nav">
-    <img src={ trybeWarts } alt=""/>
-        <a href="trybe-formulario/">trybe-warts</a>
+    <img src={ trybeWallet } alt=""/>
+        <a href="https://yangwom.github.io/Projeto-wallet/">Wallet</a>
     </div>
     </section>
-    <Button type="button" onClick={home} >Home</Button>
 </section>
-
+<Footer />
 </>
     )
 }

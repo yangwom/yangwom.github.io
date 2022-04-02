@@ -2,6 +2,7 @@ import Header from "../components/header/Header";
 import ListSkills from "../components/ListSkills";
 import Hobbies from "../components/Hobbies";
 import img from "../img/yang.jpg";
+import Footer from "../components/Footer";
 
 function Sobremim() {
     return (
@@ -18,7 +19,8 @@ function Sobremim() {
         </p>
       </section>
       <ListSkills />
-      <Hobbies/>
+      <Hobbies />
+      <Footer />
       </>
     );
 }
