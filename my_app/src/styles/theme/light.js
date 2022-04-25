@@ -1,9 +1,9 @@
- const light = {
-    title: 'light',
-color: {
-    background: 'white',
-    text: 'black',
-}
+const light = {
+	title: 'light',
+	color: {
+		background: 'white',
+		text: 'black',
+	}
 };
 
 export default light;
